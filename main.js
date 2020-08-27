@@ -13,6 +13,7 @@ let colorStates = {
 };
 
 let articleHearts = document.querySelectorAll(".like");
+let modal = document.querySelector('.hidden')
 
 function likeCallback(e) {
   let heart = e.target;
